@@ -46,10 +46,10 @@ import styles from "./styles.module.css";
 
 const TITLE = translate({
   message:
-    "AiShort (ChatGPT Shortcut) - 简单易用的 ChatGPT 快捷指令表，让生产力倍增！标签筛选、关键词搜索和一键复制 Prompts",
+    "Prompt100.Net - 简单易用的 ChatGPT 提示词库，让生产力倍增！标签筛选、关键词搜索和一键复制 Prompts",
 });
 const DESCRIPTION = translate({
-  message: "让生产力加倍的 ChatGPT 快捷指令",
+  message: "让生产力加倍的 ChatGPT 提示词库",
 });
 const SUBMIT_URL =
   "https://github.com/rockbenben/ChatGPT-Shortcut/discussions/11";
@@ -148,7 +148,7 @@ function ShowcaseHeader() {
   return (
     <section className={styles.mobileMarginAdjust + " text--center"}>
       <Heading as="h1" className={styles.hideOnMobile}>
-        AI Short
+        Prompt100
       </Heading>
       <p>{DESCRIPTION}</p>
       <UserStatus />
@@ -226,7 +226,7 @@ function ShowcaseFilters({ onToggleDescription }) {
             <ShowcaseTooltip
               text={translate({
                 message:
-                  "你添加或制作过的个人提示词，可用于存放AiShort之外的提示词。",
+                  "你添加或制作过的个人提示词，可用于存放Prompt100之外的提示词。",
               })}
               anchorEl="#__docusaurus"
             >
