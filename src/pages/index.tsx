@@ -148,7 +148,7 @@ function ShowcaseHeader() {
   return (
     <section className={styles.mobileMarginAdjust + " text--center"}>
       <Heading as="h1" className={styles.hideOnMobile}>
-        Prompt100
+        Prompt100.Net
       </Heading>
       <p>{DESCRIPTION}</p>
       <UserStatus />
@@ -226,7 +226,7 @@ function ShowcaseFilters({ onToggleDescription }) {
             <ShowcaseTooltip
               text={translate({
                 message:
-                  "你添加或制作过的个人提示词，可用于存放Prompt100之外的提示词。",
+                  "你添加或制作过的个人提示词，可用于存放Prompt100.Net之外的提示词。",
               })}
               anchorEl="#__docusaurus"
             >
