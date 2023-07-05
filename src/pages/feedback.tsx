@@ -32,7 +32,7 @@ const FeedbackPage = () => {
             </Title>
             <Paragraph>
               <Translate id="feedback.paragraph" description="The main paragraph on the feedback page">
-                欢迎给出建议、想法和提示词，以便不断改进 ChatGPT Shortcut，并提高个人效率和生产力。如果您需要反馈 bug，请提供问题发生的链接和相关情况。对于提示词内容，您可以提交多种语言的内容，或简单描述您对提示词的想法。我们期待能够拓展思维或产生高质量输出的提示词。一旦您提交的提示词被发布，您的贡献将会添加到页面上。您可以通过搜索贡献者名称（用户名）来找到对应的词条。
+                欢迎给出建议、想法和提示词，以便不断改进 Prompt100.Net，并提高个人效率和生产力。如果您需要反馈 bug，请提供问题发生的链接和相关情况。对于提示词内容，您可以提交多种语言的内容，或简单描述您对提示词的想法。我们期待能够拓展思维或产生高质量输出的提示词。一旦您提交的提示词被发布，您的贡献将会添加到页面上。您可以通过搜索贡献者名称（用户名）来找到对应的词条。
               </Translate>
             </Paragraph>
             <Waline {...walineOptions}/>
