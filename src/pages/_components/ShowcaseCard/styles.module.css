@@ -5,6 +5,25 @@
  * LICENSE file in the root directory of this source tree.
  */
 
+ .card{
+  position: relative;
+ }
+
+.jump_btn{
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+  margin-left: 0 !important;
+}
+
+ .card:hover .jump_btn{
+  display: block;
+  width: 280px;
+ }
+
+
 .showcaseCardBody {
   max-height: 300px;
   overflow-y: auto;
