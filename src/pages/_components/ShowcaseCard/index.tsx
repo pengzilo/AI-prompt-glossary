@@ -175,7 +175,7 @@ function ShowcaseCard({ user, isDescription, copyCount, onCopy, onLove }) {
   }, [user.id, onLove, userAuth, refreshUserAuth]);
 
   return (
-    <li key={userTitle} className="card shadow--md">
+    <li key={userTitle} className={`card shadow--md ${styles.card}`}>
       {/* <div className={clsx('card__image', styles.showcaseCardImage)}>
         <Image img={image} alt={user.title} />
       </div> */}
@@ -245,6 +245,17 @@ function ShowcaseCard({ user, isDescription, copyCount, onCopy, onLove }) {
           style={{ cursor: "pointer" }}
         >
           {userDescription}
+          <a
+            target="_blank"
+            href={`https://chat.zipzap.ai/?appid=chatgpt&utm_source=prompt100&prompt=${userDescription}`}
+              className={clsx(
+                "button button--primary button--sm",
+                styles.showcaseCardSrcBtn,
+                styles.jump_btn
+              )}
+            >
+          去ZipZap.AI使用
+            </a>
         </p>
       </div>
       <ul className={clsx("card__footer", styles.cardFooter)} style={{listStyle: 'none'}}>
