@@ -9,12 +9,12 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title:
-    "Prompt100.Net-Tag filtering, keyword search, and one-click copy prompts",
+    "a.wpzllq.top-Tag filtering, keyword search, and one-click copy prompts",
   // tagline: '方便中文使用 ChatGPT 快捷指令',
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://prompt100.net",
+  url: "https://a.wpzllq.top",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -102,9 +102,9 @@ const config = {
       ],
       navbar: {
         hideOnScroll: true,
-        title: "Prompt100.Net",
+        title: "a.wpzllq.top",
         logo: {
-          alt: "Prompt100.Net",
+          alt: "a.wpzllq.top",
           src: "img/logo.svg",
         },
         items: [
@@ -171,7 +171,7 @@ const config = {
       },
       footer: {
         style: "dark",
-        copyright: `Copyright © ${new Date().getFullYear()} Prompt100.Net`,
+        copyright: `Copyright © ${new Date().getFullYear()} a.wpzllq.top`,
       },
       prism: {
         theme: lightCodeTheme,
