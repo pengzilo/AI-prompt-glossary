@@ -100,12 +100,7 @@ const UserStatus = () => {
     return (
       <div>
        
-        <Link
-          className="button button--primary"
-          to="https://github.com/rockbenben/ChatGPT-Shortcut/discussions/11"
-        >
-         
-        </Link>
+       
         <Modal open={open} footer={null} onCancel={() => setOpen(false)}>
           <LoginComponent />
         </Modal>
