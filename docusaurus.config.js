@@ -156,12 +156,7 @@ const config = {
           //   label: "反馈",
           //   position: "left",
           // },
-          { type: "localeDropdown", position: "right" },
-          {
-            href: "https://github.com/xuxizhen/Prompt100",
-            position: "right",
-            className: "header-github-link",
-          },
+       
           // {
           //   href: "https://discord.gg/PZTQfJ4GjX",
           //   position: "right",
