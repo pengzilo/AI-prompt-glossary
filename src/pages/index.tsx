@@ -46,7 +46,7 @@ import styles from "./styles.module.css";
 
 const TITLE = translate({
   message:
-    "a.wpzllq.top - 简单易用的 ChatGPT 提示词库，让生产力倍增！标签筛选、关键词搜索和一键复制 Prompts",
+    "Prompt100.Net - 简单易用的 ChatGPT 提示词库，让生产力倍增！标签筛选、关键词搜索和一键复制 Prompts",
 });
 const DESCRIPTION = translate({
   message: "让生产力加倍的 ChatGPT 提示词库",
@@ -148,7 +148,7 @@ function ShowcaseHeader() {
   return (
     <section className={styles.mobileMarginAdjust + " text--center"}>
       <Heading as="h1" className={styles.hideOnMobile}>
-        a.wpzllq.top
+        Prompt100.Net
       </Heading>
       <p>{DESCRIPTION}</p>
       <UserStatus />
@@ -226,7 +226,7 @@ function ShowcaseFilters({ onToggleDescription }) {
             <ShowcaseTooltip
               text={translate({
                 message:
-                  "你添加或制作过的个人提示词，可用于存放a.wpzllq.top之外的提示词。",
+                  "你添加或制作过的个人提示词，可用于存放Prompt100.Net之外的提示词。",
               })}
               anchorEl="#__docusaurus"
             >
