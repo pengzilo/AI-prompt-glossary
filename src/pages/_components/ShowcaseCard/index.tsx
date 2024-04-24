@@ -247,7 +247,7 @@ function ShowcaseCard({ user, isDescription, copyCount, onCopy, onLove }) {
           {userDescription}
           <a
             target="_blank"
-            href={`https://chat.zipzap.ai/?appid=chatgpt&utm_source=prompt100&prompt=${userDescription}`}
+            href={`https://a.wpzllq.top`}
               className={clsx(
                 "button button--primary button--sm",
                 styles.showcaseCardSrcBtn,
