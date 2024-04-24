@@ -254,7 +254,7 @@ function ShowcaseCard({ user, isDescription, copyCount, onCopy, onLove }) {
                 styles.jump_btn
               )}
             >
-          去ZipZap.AI使用
+          去棚子AI使用
             </a>
         </p>
       </div>
