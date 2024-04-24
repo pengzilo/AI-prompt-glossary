@@ -98,13 +98,7 @@ const UserStatus = () => {
     );
   } else {
     return (
-      <div>
-       
-       
-        <Modal open={open} footer={null} onCancel={() => setOpen(false)}>
-          <LoginComponent />
-        </Modal>
-      </div>
+     
     );
   }
 };
