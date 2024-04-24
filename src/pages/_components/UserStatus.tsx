@@ -99,14 +99,12 @@ const UserStatus = () => {
   } else {
     return (
       <div>
-        <Button onClick={() => setOpen(true)} style={{ marginRight: "10px" }}>
-          <Translate id="button.login">登录</Translate>
-        </Button>
+       
         <Link
           className="button button--primary"
           to="https://github.com/rockbenben/ChatGPT-Shortcut/discussions/11"
         >
-          <Translate id="showcase.header.button">🙏 请添加你的提示词</Translate>
+         
         </Link>
         <Modal open={open} footer={null} onCancel={() => setOpen(false)}>
           <LoginComponent />
